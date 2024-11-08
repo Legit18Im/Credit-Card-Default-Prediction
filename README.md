@@ -1,1 +1,3 @@
-# Credit-Card-Default-Prediction
+# E2E_ML_project
+
+#"RED_WINE_QUALITY_PRED"
