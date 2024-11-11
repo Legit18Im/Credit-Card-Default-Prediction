@@ -33,7 +33,28 @@ Create a new environment of project
 conda create -p venv python==3.7 -y
 
 ```
+
+## Approach
+
+Below are steps taken to build this project
+1) Create Repository on GitHub with gitignore as pyhton.
+2) Clone Repository from GitHub to Local using git clone command in VS Studio Code
+3) Create a virtual environment inside working foleder named venv use command - python -m venv "path/venv"
+4) Create a requirements.txt file which contains all libraries that are required to run this project.
+5) Read Dataset using pandas library
+6) Start Exploratory data analysis
+7) Start building various models like Decision Tree Classifier, Random Forest Classifier, XGBoost Classifier, KNN Classifier, MLP Clasiifier
+8) Tune the models with cross validation using GridSearchCV
+9) Select best model and make pickle file.
+10) Create app.py file which used dash library for front-end design.
+11) Test the app.py on local system.
+12) Create Procfile for deployement in Heroku platform.
+13) Add, Commit and Push all files from Local to GitHub
+14) Deploy to Heroku and Link the GitHub Repository
+
+
 # Project Interface
+
 
 #### I have deployed this model to Amazon Web Services (AWS)
 #### Link:http://creditcarddefaultapp-env.eba-imh7xzpd.ap-south-1.elasticbeanstalk.com
