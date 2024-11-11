@@ -1,0 +1,13 @@
+prefix=E:/INeuron_Project/Credit-Card-Default-Prediction/vnve/Library
+exec_prefix=E:/INeuron_Project/Credit-Card-Default-Prediction/vnve/Library
+libdir=E:/INeuron_Project/Credit-Card-Default-Prediction/vnve/Library/lib
+sharedlibdir=E:/INeuron_Project/Credit-Card-Default-Prediction/vnve/Library/lib
+includedir=E:/INeuron_Project/Credit-Card-Default-Prediction/vnve/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
